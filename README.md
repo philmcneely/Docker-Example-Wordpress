@@ -45,7 +45,7 @@ If you are using Docker Machine, you can run the command docker-machine ip MACHI
   
 If you are using Docker Desktop for Mac or Docker Desktop for Windows, you can use http://localhost as the IP address, and open http://localhost:8000 in a web browser.  
   
-If you are using Docker Toolbox, you can use http://<the ip docker toolbox told you it would be on>:8000  
+If you are using Docker Toolbox, you can use http://*the ip docker toolbox told you it would be on*:8000  
   
 # Shutdown and cleanup  
 The command docker-compose down removes the containers and default network, but preserves your WordPress database.  
